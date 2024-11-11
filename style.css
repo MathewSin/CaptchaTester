@@ -29,7 +29,11 @@ body {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* Center the text */
+}
   
   button {
     background-color: #4CAF50;
@@ -72,7 +76,11 @@ body {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-top: 30px;
-  }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* Center the text */
+}
   
   .note-box h3 {
     font-size: 1.5rem; /* Fixed font size for the note heading */
@@ -83,4 +91,12 @@ body {
     color: #666;
     font-size: 1rem; /* Fixed font size for note content */
   }
-  
+
+
+  #button4 {
+    background-color: #f6100c;
+}
+
+#button5 {
+    background-color: #f6100c;
+}
