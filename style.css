@@ -6,19 +6,23 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     height: 100vh;
+    overflow-x: hidden;
   }
+  
   header {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px; /* Fixed margin */
   }
+  
   h1 {
-    font-size: 3rem;
+    font-size: 2.5rem; /* Fixed size for header */
     color: #333;
   }
+  
   section {
-    width: 80%;
+    width: 90%;
     max-width: 900px;
     padding: 20px;
     margin-bottom: 30px;
@@ -26,6 +30,7 @@ body {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
+  
   button {
     background-color: #4CAF50;
     color: white;
@@ -33,15 +38,17 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 1rem;
+    font-size: 1rem; /* Fixed font size */
     margin: 10px;
     transition: background-color 0.3s;
   }
+  
   button:hover {
     background-color: #45a049;
   }
+  
   .qr-box {
-    width: 80%;
+    width: 90%;
     max-width: 600px;
     padding: 20px;
     background-color: #fff;
@@ -50,13 +57,15 @@ body {
     text-align: center;
     margin-top: 30px;
   }
+  
   .qr-box img {
-    width: 150px;
+    width: 150px; /* Fixed image size */
     height: 150px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
+  
   .note-box {
-    width: 80%;
+    width: 90%;
     max-width: 900px;
     padding: 20px;
     background-color: #fff;
@@ -64,12 +73,14 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-top: 30px;
   }
+  
   .note-box h3 {
-    font-size: 1.5rem;
+    font-size: 1.5rem; /* Fixed font size for the note heading */
     color: #333;
   }
+  
   .note-box p {
     color: #666;
-    font-size: 1rem;
+    font-size: 1rem; /* Fixed font size for note content */
   }
   
