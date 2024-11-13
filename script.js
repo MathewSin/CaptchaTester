@@ -7,7 +7,7 @@ document.getElementById('button1').addEventListener('click', function() {
   });
   
   document.getElementById('button3').addEventListener('click', function() {
-    window.location.href = 'https://www.example3.com';
+    window.location.href = 'https://maulanarumyy.github.io/CaptchaV3/';
   });
   
   document.getElementById('button4').addEventListener('click', function() {
