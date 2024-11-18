@@ -3,7 +3,7 @@ document.getElementById('button1').addEventListener('click', function() {
   });
   
   document.getElementById('button2').addEventListener('click', function() {
-    window.location.href = 'https://mathewsin.github.io/captchaStory2.0/';
+    window.location.href = 'https://mathewsin.github.io/OneLineDrawCaptcha/';
   });
   
   document.getElementById('button3').addEventListener('click', function() {
