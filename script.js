@@ -11,7 +11,7 @@ document.getElementById('button1').addEventListener('click', function() {
   });
   
   document.getElementById('button4').addEventListener('click', function() {
-    window.location.href = 'https://2captcha.com/demo/hcaptcha?difficulty=difficult';
+    window.location.href = 'https://2captcha.com/demo/recaptcha-v2';
   });
 
   document.getElementById('button5').addEventListener('click', function() {
